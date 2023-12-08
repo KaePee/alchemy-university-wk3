@@ -1,5 +1,11 @@
 import { Alchemy, Network } from 'alchemy-sdk';
 import { useEffect, useState } from 'react';
+import Navbar from './components/Navbar';
+import LatestBlocks from './components/LatestBlocks';
+import LatestTransactions from './components/LatestTransactions';
+import Overview from './components/Overview';
+import Search from './components/Search';
+
 
 import './App.css';
 
@@ -30,7 +36,14 @@ function App() {
     getBlockNumber();
   });
 
-  return <div className="App">Block Number: {blockNumber}</div>;
+  return (<>
+  <div className="App">Block Number: {blockNumber}</div>
+  <Navbar/>
+  <Search/>
+  <Overview/>
+  <LatestBlocks/>
+  <LatestTransactions/>
+  </>)
 }
 
 export default App;
