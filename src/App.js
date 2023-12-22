@@ -37,7 +37,7 @@ function App() {
   });
 
   return (<>
-  <div className="App">Block Number: {blockNumber}</div>
+  {/* <div className="App">Block Number: {blockNumber}</div> */}
   <Navbar/>
   <Search/>
   <Overview/>
