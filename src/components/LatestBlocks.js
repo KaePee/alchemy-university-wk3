@@ -1,8 +1,9 @@
 import React from 'react'
+import "../styles/LatestBlocks.css"
 
 const LatestBlocks = () => {
   return (
-    <h1>LatestBlocks</h1>
+    <h1 className='blocks'>LatestBlocks</h1>
   )
 }
 

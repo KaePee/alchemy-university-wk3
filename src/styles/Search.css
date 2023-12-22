@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+  .search-bar {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 380px;
+    background-color: floralwhite;
+  }
+  
+  .search-bar::placeholder {
+    color: #888888;
+    text-align: center;
+  }
+  
+  .search-bar:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fb8500;
+    border-radius: 4px;
+  }
+  
+  .FaSearchengin {
+    color: #888888;
+    margin-left: 6px;
+    padding: 2px;
+    font-size: large;
+  }

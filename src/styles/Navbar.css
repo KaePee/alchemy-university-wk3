@@ -1,0 +1,49 @@
+.nav {
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.nav-section {
+    padding: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.search-icon {
+    color: black;
+    height: auto;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.nav span {
+    margin-top: auto;
+}:scope
+
+.nav-links, a {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.25rem;
+    align-items: right;
+    justify-content: right;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    box-sizing: border-box;
+    border-bottom: 0.25rem solid #219ebc;
+    transition: all ease-in-out 50ms;
+}
+
+h1 ~ p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    font-style: italic;
+    font-family: inherit;
+}
