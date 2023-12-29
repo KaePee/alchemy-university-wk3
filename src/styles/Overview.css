@@ -1,4 +1,15 @@
 .overview {
-    color:brown;
-    font-size: x-large;
+    display: flex;
+    margin: auto;
+    align-items: space-between;
+    justify-content: space-around;
+}
+
+.eth-card, .tx-card,  .block-card{
+    background-color: rgb(217, 221, 241, 0.4);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    padding: 1rem;
+    width: 400px;
+    margin-top: 2%;
 }
